@@ -7,4 +7,6 @@ urlpatterns = [
 
 router = DefaultRouter()
 router.register('categories', views.CategoryViewSet),
+router.register('brands', views.BrandViewSet),
+router.register('car', views.CarViewSet),
 urlpatterns += router.urls
